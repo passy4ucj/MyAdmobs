@@ -37,7 +37,7 @@ public class App extends Application implements Application.ActivityLifecycleCal
             StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
             StrictMode.setVmPolicy(builder.build());
 
-            // Initialize Live Banner Ads immediately SonsHub Mobile is opened
+            // Initialize Live Banner Ads immediately the App is opened
             MobileAds.initialize(sInstance, getResources().getString(R.string.admob_app_id));
             if (Build.VERSION.SDK_INT >= 24) {
                 try {
@@ -48,7 +48,7 @@ public class App extends Application implements Application.ActivityLifecycleCal
                 }
             }
         } else {
-            // Initialize Sample Banner Ads immediately SonsHub Mobile is opened
+            // Initialize Sample Banner Ads immediately the App is opened
             MobileAds.initialize(sInstance, getResources().getString(R.string.sample_admob_app_id));
         }
         SystemClock.sleep(TimeUnit.SECONDS.toMillis(1));
