@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.goldearn">
 
     <!-- Include required permissions for Google Mobile Ads to run. -->
@@ -17,8 +16,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".BreakGame"
-            android:label="@string/title_activity_break_game">
+            android:name=".activities.MainActivity"
+            android:label="@string/title_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -27,10 +26,10 @@
                 android:name="com.google.android.gms.ads.APPLICATION_ID"
                 android:value="@string/admob_app_id" />
         </activity>
+
         <!-- Include the AdActivity configChanges and theme. -->
         <meta-data
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
             android:value="true"/>
     </application>
-
 </manifest>
