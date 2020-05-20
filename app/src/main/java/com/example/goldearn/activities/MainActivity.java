@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void goToNextLevel() {
         // Show the next level and reload the ad to prepare for the level after.
-        mLevelTextView.setText("Level " + (++mLevel));
+        mLevelTextView.setText(getString(R.string.level, ++mLevel));
         requestNewInterstitial();
     }
 
