@@ -28,6 +28,41 @@
             android:textAppearance="?android:attr/textAppearanceLarge" />
     </LinearLayout>
 
+    <include android:id="@+id/bannerAd_6"
+        layout="@layout/ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bannerAd_5"
+        android:layout_marginBottom="@dimen/activity_margin_small"/>
+
+    <include android:id="@+id/bannerAd_5"
+        layout="@layout/ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bannerAd_4"
+        android:layout_marginBottom="@dimen/activity_margin_small"/>
+
+    <include android:id="@+id/bannerAd_4"
+        layout="@layout/ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bannerAd_3"
+        android:layout_marginBottom="@dimen/activity_margin_small"/>
+
+    <include android:id="@+id/bannerAd_3"
+        layout="@layout/ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bannerAd_2"
+        android:layout_marginBottom="@dimen/activity_margin_small"/>
+
+    <include android:id="@+id/bannerAd_2"
+        layout="@layout/ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bannerAd_1"
+        android:layout_marginBottom="@dimen/activity_margin_small"/>
+
     <include android:id="@+id/bannerAd_1"
         layout="@layout/ads_layout"
         android:layout_width="match_parent"
