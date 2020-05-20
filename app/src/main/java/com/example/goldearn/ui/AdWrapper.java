@@ -17,7 +17,7 @@ import com.google.android.gms.ads.InterstitialAd;
 
 import java.util.Objects;
 
-import static com.example.goldearn.BreakGame.isTelevision;
+import static com.example.goldearn.activities.MainActivity.isTelevision;
 
 
 /**
