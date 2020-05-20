@@ -19,6 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/start_level"
+            android:textColor="@android:color/white"
             android:layout_gravity="start|center_vertical"
             android:layout_marginStart="@dimen/activity_horizontal_margin"
             android:textAppearance="?android:attr/textAppearanceLarge" />
