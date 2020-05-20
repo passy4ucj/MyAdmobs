@@ -13,7 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="@dimen/activity_margin_small">
-
         <TextView
             android:id="@+id/level"
             android:layout_width="wrap_content"
@@ -38,7 +37,7 @@
         </LinearLayout>
     </androidx.appcompat.widget.Toolbar>
 
-
+    <!-- view for AdMob Banner Ad -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
