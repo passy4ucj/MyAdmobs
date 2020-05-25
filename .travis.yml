@@ -1,30 +1,28 @@
-language: android
 
-jdk:
-  - oraclejdk8
+language: android
 
 android:
   components:
-    # Uncomment the lines below if you want to
-    # use the latest revision of Android SDK Tools
     - platform-tools
     - tools
-    # The BuildTools version used by your project
-    - build-tools-29.0.3
-    # The SDK version used to compile your project
-    - android-29
-    # Additional components
+
+    - build-tools-28.0.3
+    - android-28
+
+    - extra-google-m2repository
     - extra-android-m2repository
-    - add-on
-    - extra
   licenses:
     - 'android-sdk-preview-license-.+'
     - 'android-sdk-license-.+'
     - 'google-gdk-license-.+'
 
+jdk:
+  - oraclejdk8
+
 script:
-  - ./gradlew clean assemble
+  - chmod +x ./gradlew
   - ./gradlew test
+  - ./gradlew clean assemble
   - ./gradlew assembleAndroidTest
 
 notifications:
