@@ -1,0 +1,30 @@
+language: android
+
+android:
+  components:
+    - platform-tools
+    - tools
+
+    - build-tools-29.0.3
+    - android-29
+
+    - extra-google-m2repository
+    - extra-android-m2repository
+  licenses:
+    - 'android-sdk-preview-license-.+'
+    - 'android-sdk-license-.+'
+    - 'google-gdk-license-.+'
+
+jdk:
+  - oraclejdk8
+
+script:
+  - chmod +x ./gradlew
+ # - ./gradlew test
+ # - ./gradlew clean assemble
+ # - ./gradlew assembleAndroidTest
+
+notifications:
+  email: false
+
+sudo: false
