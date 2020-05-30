@@ -9,9 +9,9 @@
     <string name="next_level">Click Now</string>
 
     <!-- Live Ads -->
-    <string name="admob_app_id">ca-app-pub-7025296229927309~2627351234</string>
-    <string name="interstitial_ad_unit_id">ca-app-pub-7025296229927309/2352374288</string>
-    <string name="banner_ad_unit_id">ca-app-pub-7025296229927309/1282479972</string>
+    <string name="admob_app_id">ca-app-pub-6670104251353153~1613059561</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-6670104251353153/7795803467</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6670104251353153/2735048474</string>
 
     <!-- Test Ads -->
     <string name="sample_admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
